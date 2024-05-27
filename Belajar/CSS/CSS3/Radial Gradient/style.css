@@ -1,0 +1,27 @@
+.kotak1 {
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    background: radial-gradient(red, green, yellow);
+}
+
+.kotak2 {
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    background: radial-gradient(red 5%, green 15%, blue 60%);
+}
+
+.kotak3 {
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    background: radial-gradient(circle, crimson, lightskyblue, yellowgreen);
+}
+
+.kotak4 {
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    background: radial-gradient(closest-side at 60% 55%, blue, green, yellow, black);
+}

@@ -1,0 +1,33 @@
+h1 {
+    color: coral;
+}
+
+h1:hover {
+    color: chartreuse;
+    font-size: 50px;
+}
+
+ul {
+    color: blue;
+}
+
+li:nth-child(2n+1) {
+    color: crimson;
+}
+
+ol#ganjil {
+    color: sandybrown;
+}
+
+ol#ganjil:hover li:nth-child(3n-1) {
+    color: cornflowerblue;
+    font-size: 100px;
+}
+
+p:first-of-type {
+    color: blueviolet;
+}
+
+p:last-of-type {
+    color: aquamarine;
+}

@@ -1,0 +1,7 @@
+body {
+    background-color: silver;
+    background-image: url(email-pattern.png);
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-size: 100px;
+}

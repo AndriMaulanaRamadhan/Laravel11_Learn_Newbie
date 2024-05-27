@@ -1,0 +1,18 @@
+.kotak1 {
+    height: 300px;
+    width: 300px;
+    background-color: salmon;
+    box-shadow: inherit;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.kotak2 {
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    box-shadow: inset 10px 50px 50px 2px black;
+    border-radius: 50%;
+}

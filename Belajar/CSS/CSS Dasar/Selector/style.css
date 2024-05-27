@@ -1,0 +1,19 @@
+h1#judul {
+    color: chartreuse;
+}
+
+ul#list1 {
+    color: blueviolet;
+}
+
+ol.list1 {
+    color: cornflowerblue;
+}
+
+p.paragraph {
+    color: brown;
+}
+
+p#paragraph {
+    color: tomato;
+}

@@ -1,0 +1,30 @@
+.kotak1 {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0.5);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.kotak2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.kotak3 {
+    height: 300px;
+    width: 300px;
+    background-color: hsla(120,100%,80%,0.5);
+    margin-top: 300px;
+}
+
+.kotak4 {
+    height: 100px;
+    width: 100px;
+    background-color: hsla(50, 50%, 70%, 0.7);
+    position: relative;
+    top:-50px;
+    left: 250px;
+}
