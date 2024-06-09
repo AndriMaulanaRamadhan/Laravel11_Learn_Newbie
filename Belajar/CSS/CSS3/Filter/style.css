@@ -1,0 +1,4 @@
+img {
+  filter: brightness(70%) blur(0px) contrast(200%) drop-shadow(10px 10px 10px black) grayscale(40%) hue-rotate(10deg) invert(0.5%) opacity(.9) saturate(3) sepia(0%);
+  margin-left: 450px;
+}
