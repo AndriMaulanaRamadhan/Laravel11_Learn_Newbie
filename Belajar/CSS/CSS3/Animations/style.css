@@ -1,0 +1,44 @@
+.kotak {
+  width: 200px;
+  height: 200px;
+  background-color: firebrick;
+  transition: 2s;
+}
+
+.container {
+  width: 2000px;
+  height: 2000px;
+}
+
+.container:hover .kotak {
+  animation: animasiKotak 2s ease 3 alternate forwards;
+}
+
+@keyframes animasiKotak {
+  0% {
+    width: 200px;
+    height: 200px;
+    background-color: firebrick;
+  }
+
+  20% {
+    margin-left: 1000px;
+  }
+
+  40% {
+    margin-top: 200px;
+  }
+
+  60% {
+    margin-right: 400px;
+  }
+
+  80% {
+    margin-bottom: 100px;
+  }
+
+  100% {
+    transform: scale(2);
+    background-color: cornflowerblue;
+  }
+}
