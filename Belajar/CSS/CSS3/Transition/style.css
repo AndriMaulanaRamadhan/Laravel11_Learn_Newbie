@@ -1,0 +1,101 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  transition: 3s ease 1s;
+  margin: 5px;
+}
+
+.circle2 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  transition: 3s ease-in 1s;
+  margin: 5px;
+}
+
+.circle3 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  transition: 3s ease-out 1s;
+  margin: 5px;
+}
+
+.circle4 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  transition: 3s ease-in-out 1s;
+  margin: 5px;
+}
+
+.circle5 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  transition: 3s linear 1s;
+  margin: 5px;
+}
+
+.circle6 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  transition: 3s cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  margin: 5px;
+}
+
+.container:hover .circle {
+  transform: rotatex(45deg) scale(1.2)rotateY(360deg) rotateX(360deg);
+  background-color: darkred;
+  margin-left: 1000px;
+}
+
+.container:hover .circle2 {
+  transform: rotatex(45deg) scale(1.2)rotateY(360deg) rotateX(360deg);
+  background-color: darkred;
+  margin-left: 1000px;
+}
+
+.container:hover .circle3 {
+  transform: rotatex(45deg) scale(1.2)rotateY(360deg) rotateX(360deg);
+  background-color: darkred;
+  margin-left: 1000px;
+}
+
+.container:hover .circle4 {
+  transform: rotatex(45deg) scale(1.2)rotateY(360deg) rotateX(360deg);
+  background-color: darkred;
+  margin-left: 1000px;
+}
+
+.container:hover .circle5 {
+  transform: rotatex(45deg) scale(1.2)rotateY(360deg) rotateX(360deg);
+  background-color: darkred;
+  margin-left: 1000px;
+}
+
+.container:hover .circle6 {
+  transform: rotatex(45deg) scale(1.2)rotateY(360deg) rotateX(360deg);
+  background-color: darkred;
+  margin-left: 1000px;
+}
