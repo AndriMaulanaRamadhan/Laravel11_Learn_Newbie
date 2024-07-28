@@ -1,7 +1,12 @@
 body {
     background-color: silver;
-    background-image: url(email-pattern.png);
+    background-image: url(../../../IMAGES/email-pattern.png);
     background-position: top left;
     background-repeat: repeat-y;
     background-size: 100px;
+}
+
+.tree {
+    width: 200px;
+    height: 200px;
 }
